@@ -13,3 +13,19 @@ cin.tie(0);
 
 return 0;
 }
+
+
+
+
+<!-- Web Development CSS -------------------------------------------------------------------------------------------------- -->
+
+/* For Tablte Version Responsive */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/* For Mobile Version Responsive */
+@media screen and (max-width: 767px) {
+
+
+}
