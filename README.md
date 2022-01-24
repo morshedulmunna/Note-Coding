@@ -29,3 +29,27 @@ return 0;
 
 
 }
+
+
+
+//--------------------------------------------------------------------------------------------------------------------------------//
+/* Responsive */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+/* Tablet Layout */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+/* Mobile Layout*/
+@media only screen and (max-width: 767px) {}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Layout*/
+@media only screen and (min-width: 320px) and (max-width: 425px) {}
+
+/* Mobile Layout*/
+@media only screen and (min-width: 0px) and (max-width: 319px) {}
+//...................................................................................................................................//
