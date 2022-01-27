@@ -1,3 +1,16 @@
+___________________ All Dependancis for React Project _________________
+
+npm install react-router-dom@6 react-icons --save
+
+
+
+
+
+
+
+
+
+
 /*___________ For Tablte Version Responsive ____________ */ 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 }
