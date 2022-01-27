@@ -1,8 +1,8 @@
-/*____________________________________________________________ For Tablte Version Responsive ___________________________________________________________ */ 
+/*___________ For Tablte Version Responsive ____________ */ 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 }
 
-/* ____________________________________________________________ For Mobile Version Responsive ____________________________________________________________ */ 
+/* _______ For Mobile Version Responsive ________ */ 
 @media screen and (max-width: 767px) {
 }
 
