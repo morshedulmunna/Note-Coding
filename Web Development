@@ -1,0 +1,29 @@
+/*____________________________________________________________ For Tablte Version Responsive ___________________________________________________________ */ 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* ____________________________________________________________ For Mobile Version Responsive ____________________________________________________________ */ 
+@media screen and (max-width: 767px) {
+}
+
+/*____________________________________________________________ All Device Responsive Formate ___________________________________________________________ */ 
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+/*__________________ Tablet Layout __________________*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+/*__________________ Mobile Layout __________________*/ 
+@media only screen and (max-width: 767px) {}
+
+/* __________________Wide Mobile Layout__________________ */ 
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* __________________ Mobile Layout __________________*/ 
+@media only screen and (min-width: 320px) and (max-width: 425px) {}
+
+/* __________________Mobile Layout __________________*/ 
+@media only screen and (min-width: 0px) and (max-width: 319px) {} 
+
+__________________________________________________________________________________________________________________________________________________________________
