@@ -1,10 +1,14 @@
 /*________________C++ Coding Template _______________________________________*/
 
-#include <bits/stdc++.h> using namespace std;
+#include <bits/stdc++.h> 
+using namespace std;
 
-int main(){ ios_base::sync_with_stdio(0); cin.tie(0);
+int main()
+{ 
+ios_base::sync_with_stdio(0); cin.tie(0);
 
-//code here
+  //code here
 
-return 0; }
+  return 0;
+}
 _______________________________________________________________________________
