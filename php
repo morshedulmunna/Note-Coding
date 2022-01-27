@@ -4,3 +4,4 @@
 
 /*______ All File Wordpress Hook PHP ______*/
  <?php wp_head(); ?>
+<?php wp_footer(); ?>
