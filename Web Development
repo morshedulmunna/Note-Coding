@@ -1,7 +1,7 @@
 ___________________ All Dependancis for React Project _________________
 
-npm install react-router-dom@6 react-icons --save
-
+npm init vite@latest
+npm install react-router-dom@6 react-icons --save bootstrap
 
 
 
