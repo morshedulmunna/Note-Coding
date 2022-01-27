@@ -7,11 +7,10 @@
 }
 
 /*____________________________________________________________ All Device Responsive Formate ___________________________________________________________ */ 
-
+/*__________________ Destop for Small Monitor Layout __________________*/
 @media only screen and (min-width: 992px) and (max-width: 1199px) {}
 
 /*__________________ Tablet Layout __________________*/
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {}
 
 /*__________________ Mobile Layout __________________*/ 
