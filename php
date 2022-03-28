@@ -8,8 +8,3 @@
 
 
 
-ds
-sd
-sdgs
-dgs
-dgsdg
