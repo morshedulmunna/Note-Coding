@@ -7,31 +7,4 @@
 <?php wp_footer(); ?>
 
 
-<?php   ?>
 
-sdfsdfs
-dsaf
-esdfds
-gsd
-sdfsfwewerdsfvds
-
-dsdfsdfsd
-fds
-fds
-fds
-fdsds
-fg
-dsgsdf
-sdg
-sd
-dsfsdff
-ds
-fds
-fds
-fdsf
-ds
-fsd
-fds
-fsd
-fds
-fg
