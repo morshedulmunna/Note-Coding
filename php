@@ -21,9 +21,3 @@ jh ;oj
       ;k';k
        lj;j 
        'l;k khl[; 
-       
-        boj 
-         ;k
-          uoj '
-
- kj';
