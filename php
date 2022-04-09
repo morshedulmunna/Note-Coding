@@ -8,3 +8,22 @@
 
 
 
+jh ;oj 
+ klj 
+  j '
+   ojk
+   
+    'k
+    [ jo 
+    [;lo
+     '
+     klk
+      ;k';k
+       lj;j 
+       'l;k khl[; 
+       
+        boj 
+         ;k
+          uoj '
+
+ kj';
