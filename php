@@ -7,10 +7,3 @@
 <?php wp_footer(); ?>
 
 
-
-jh ;oj 
- klj 
-  j '
-   ojk
-   
-    'k
