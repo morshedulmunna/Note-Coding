@@ -14,10 +14,3 @@ jh ;oj
    ojk
    
     'k
-    [ jo 
-    [;lo
-     '
-     klk
-      ;k';k
-       lj;j 
-       'l;k khl[; 
