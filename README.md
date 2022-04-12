@@ -1,5 +1,8 @@
 
   <h3 align="center"> Node.js</h3>
+  
+  _redirects
+/*    /index.html    200
 
 <!-- TABLE OF CONTENTS -->
 
