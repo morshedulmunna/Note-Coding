@@ -4,6 +4,11 @@
   _redirects
 /*    /index.html    200
 
+### Next.js with typescript and tailwind Command
+   ```sh
+   npx create-next-app --example with-tailwindcss my-app
+   ```
+
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
