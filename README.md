@@ -6,7 +6,7 @@
 
 ### Next.js with typescript and tailwind Command
    ```sh
-   npx create-next-app --example with-tailwindcss my-app
+   yarn create next-app --example with-tailwindcss my-app
    ```
 
 <!-- TABLE OF CONTENTS -->
