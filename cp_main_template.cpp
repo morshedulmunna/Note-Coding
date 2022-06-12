@@ -1,54 +1,91 @@
-/***
-**    Author: Morshedul Munna
-***/
-#include<bits/stdc++.h>
+                    /**************************************************************************************
+                    *                                          Coder                                      *
+                    |                                     Morshedul Munna                                 |
+                    *                           (BUBT- Department  of CSE- intake-45)                     *
+                    |                               morshedulmunna1@gmail.com                               |
+                    **************************************************************************************//*
+                                             Coding <<>> Eating <<>> Sleping <<>> Coding
+*/#include<bits/stdc++.h>
 using namespace std;
+//constants :
+const int   N                               = (int) 1e6+5;
+const int   M                               = (int) 1e9+5;
+const int   mod                             = (int) 1000000007;
+const int   max_prime                       = (int) 1e6+3;
+const int   BLK                             = (int) 700;
+//data_type_compressions :
+#define     ll                              long long int
+#define     ull                             unsigned long long int
+#define     ui                              unsigned int
+//STL :
+#define     vi                              vector<int>
+#define     vb                              vector<bool>
+#define     vs                              vector<string>
+#define     vl                              vector<ll>
+#define     si                              set<int>
+#define     sl                              set<ll>
+#define     ip                              pair<int,int>
+#define     lp                              pair<ll,ll>
+#define     ips                             pair<string,int>
+#define     lps                             pair<string,ll>
+#define     ipc                             pair<char,int>
+#define     lpc                             pair<char,ll>
+#define     vip                             vector<ip>
+#define     PQ                              priority_queue
+#define     vlp                             vector<lp>
+#define     hashmap                         unordered_map
+#define     msi                             multiset<int>
+#define     msl                             multiset<ll>
+#define     pb                              push_back
+#define     spb                             insert
+#define     erase_duplicates(x)             x.erase(unique(all(x)),x.end());
+#define     all(x)                          x.begin(),x.end()
+#define     all_0(x)                        memset(x,0,sizeof(x))
+#define     all_neg(x)                      memset(x,-1,sizeof(x))
+#define     all_1(x)                        memset(x,1,sizeof(x))
+//I/O :
+#define     Faster                          ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+#define     Read(x)                         freopen(x,"r",stdin)
+#define     Write(x)                        freopen (x,"w",stdout)
+#define     PI                              acos(-1)
+#define     take_the_array_INT(x,o,n)       for(int i=o;i<=n;i++){scanf("%d",&x[i]);}
+#define     take_the_array_LL(x,o,n)        for(int i=o;i<=n;i++){scanf("%lld",&x[i]);}
+#define     print_the_array_INT(x,o,n)      for(int i=o;i<=n;i++){printf("%d ",x[i]);}printf("\n");
+#define     print_the_array_LL(x,o,n)       for(int i=o;i<=n;i++){printf("%lld ",x[i]);}printf("\n");
+#define     cin_the_array(x,o,n)            for(int i=o;i<=n;i++){cin>>x[i];}
+#define     cout_the_array(x,o,n)           for(int i=o;i<=n;i++){cout<<x[i]<<" ";}cout<<endl;
+#define     int_in(x)                       scanf("%d",&x)
+#define     ll_in(x)                        scanf("%lld",&x)
+#define     dbl_in(x)                       scanf("%lf",&x)
+#define     char_in(x)                      scanf(" %c",&x)
+#define     str_in(x)                       scanf("%s",&x)
+#define     int_in2(x,y)                    scanf("%d %d",&x,&y)
+#define     int_in3(x,y,z)                  scanf("%d %d %d",&x,&y,&z)
+#define     ll_in2(x,y)                     scanf("%lld %lld",&x,&y)
+#define     ll_in3(x,y,z)                   scanf("%lld %lld %lld",&x,&y,&z)
+#define     int_out(x)                      printf("%d",x)
+#define     ll_out(x)                       printf("%lld",x)
+#define     char_out(x)                     printf("%c",x)
+#define     str_out(x)                      printf("%s",x)
+#define     YES                             printf("YES\n")
+#define     Yes                             printf("Yes\n")
+#define     NO                              printf("NO\n")
+#define     No                              printf("No\n")
+#define     nl                              printf("\n")
+//extras :
+#define     main                            int main()
+#define     checkmate                       return 0;
+#define     UNDEFINED                       0x3f
+#define     INF                             LLONG_MAX
+#define     in_range(i,x,y)                 for(int i=x;i<=y;i++)
+#define     in_range_back(i,x,y)            for(int i=y;i>=x;i--)
 
-#define ll           long long
-#define pb           push_back
-#define pob          pop_back
 
-/**Define memory set function**/
-#define mem(x,y) memset(x,y,sizeof(x))
-#define CLEAR(x) memset(x,0,sizeof(x))
+//..............................................Let's Start with e4, shan't we.?......................................
 
-#define F            first
-#define S            second
-#define deb(x)       cout << #x << "=" << x << endl
-#define deb2(x, y)   cout << #x << "=" << x << "," << #y << "=" << y << endl
-#define IOS          ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-#define endl         '\n'
-#define for0(n)      for(int i = 0; i < (int)(n); ++i)
-#define MapPnt(a)    {for(auto it: a){ cout<<it.first<<": "<<it.second<<endl;} cout<<endl;}
 
-template<class T> T MIN3(T a,T b,T c) {return min(a,min(b,c));} /// minimum of 3 number
-template<class T> T MAX3(T a,T b,T c) {return max(a,max(b,c));} ///maximum of 3 number
-template <typename T> void Print(T ar[] , int n) {for (int i = 0; i + 1 < n; i++)cout << ar[i] << " ";cout << ar[n - 1] << "\n";}
-template <typename T> void Print(const vector<T> &v) {for (int i = 0; i + 1 < v.size() ; i++) cout << v[i] << " ";cout << v.back() << "\n";}
 
-typedef pair<int, int> PII;
-typedef vector<int> VI;
-typedef vector<string> VS;
-typedef vector<PII> VII;
-typedef vector<VI> VVI;
-typedef map<int,int> MPII;
-typedef set<int> SETI;
-
-void solve(){
-    
-}
-int main()
-{
-    #ifndef ONLINE_JUDGE
-    freopen("in.txt", "r", stdin);
-    //freopen("out.txt", "w", stdout);
-    #endif
-    IOS
-    int tc = 1;
-    //cin >> tc;
-    for (int t = 1; t <= tc; t++) {
-        //cout << "Case #" << t  << ": ";
-        solve();
-    }
-    return 0;
+main{
+    // Code Here ===>>
+    checkmate
 }
