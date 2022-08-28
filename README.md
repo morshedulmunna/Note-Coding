@@ -181,7 +181,24 @@ Create a `.eslintrc.json` file in the project root and enter the below contents:
 
 ```json
 theme: {
-    extend: {},
+ container: {
+      center: true,
+      padding: "16px",
+    },
+    extend: {
+      colors: {
+        primary: "#3E7DFF",
+      },
+      boxShadow: {
+        "primary-hover": "0px 11px 20px rgba(139, 92, 246, 0.2)",
+      },
+      dropShadow: {
+        image: "25px 40px 100px rgba(0, 0, 0, 0.1)",
+      },
+      zIndex: {
+        "-1": "-1",
+      },
+    },
     screens: {
       sm: "640px",
       // => @media (min-width: 640px) { ... }
