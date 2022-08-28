@@ -181,7 +181,7 @@ Create a `.eslintrc.json` file in the project root and enter the below contents:
 
 ```json
 theme: {
- container: {
+    container: {
       center: true,
       padding: "16px",
     },
@@ -194,6 +194,21 @@ theme: {
       },
       dropShadow: {
         image: "25px 40px 100px rgba(0, 0, 0, 0.1)",
+      },
+      padding: {
+        "5px": "5px",
+      },
+      margin: {
+        "5px": "5px",
+      },
+      blur: {
+        xs: "2px",
+      },
+      scale: {
+        175: "1.75",
+      },
+      rotate: {
+        17: "17deg",
       },
       zIndex: {
         "-1": "-1",
@@ -215,7 +230,7 @@ theme: {
       "2xl": "1536px",
       // => @media (min-width: 1536px) { ... }
     },
-  }
+  },
 ```
 
 
