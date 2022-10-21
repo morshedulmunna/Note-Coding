@@ -235,3 +235,10 @@ theme: {
 
 
 
+### Code Runner VS code C++   compailer
+
+"code-runner.executorMap": {
+            "cpp": "cd $dirWithoutTrailingSlash && g++ -std=c++11 $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt"
+        }
+
+"code-runner.terminalRoot": "/"
