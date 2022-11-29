@@ -259,3 +259,18 @@ theme: {
     "bracketSameLine": false
 }
 ```
+###  Cannot find module 'next/babel' Solution
+
+Create file called .babelrc in your root directory and add this code:
+```
+{
+  "presets": ["next/babel"],
+  "plugins": []
+}
+```
+And in .eslintrc, replace the existing code with:
+```
+{
+  "extends": ["next/babel","next/core-web-vitals"]
+}
+```
