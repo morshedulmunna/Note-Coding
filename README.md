@@ -179,7 +179,8 @@ Create a `.eslintrc.json` file in the project root and enter the below contents:
 
 ### tailwinds.config.js file theme breackpoint
 
-```json
+```
+json
 theme: {
     container: {
       center: true,
@@ -244,7 +245,7 @@ theme: {
 "code-runner.terminalRoot": "/"
 
 
-###prettier config json file:- .prettierrc.json
+### prettier config json file:- .prettierrc.json
 
 ```
 {
