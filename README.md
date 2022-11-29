@@ -242,3 +242,19 @@ theme: {
         }
 
 "code-runner.terminalRoot": "/"
+
+
+###prettier config json file:- .prettierrc.json
+
+```
+{
+    "useTabs": false,
+    "tabWidth": 4,
+    "trailingComma": "none",
+    "semi": true,
+    "singleQuote": true,
+    "jsxSingleQuote": false,
+    "printWidth": 250,
+    "bracketSameLine": false
+}
+```
