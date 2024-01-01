@@ -1,3 +1,8 @@
+See Task 
+```netstat -ano | findstr :<PORT>```
+kill now
+```taskkill /PID <PID> /F```
+
 
   <h3 align="center"> Node.js</h3>
   
