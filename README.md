@@ -7,6 +7,29 @@ kill now
 java -jar openapi-generator-cli-6.0.1.jar generate -i ./src/schema/schema.json -g typescript-axios --additional-properties=withSeparateModelsAndApi=true,modelPackage=models,apiPackage=api -o ./src/openapi --type-mappings=Date=Date,DateTime=Date --skip-validate-spec
 ```
 
+### auto complete error solve
+```
+{
+   "compilerOptions": {
+      "paths": {
+         "@/*": [
+            "./src/*"
+         ]
+      }
+   },
+   "include": [
+      "src/**/*"
+   ],
+   "exclude": [
+      "node_modules",
+      "dist",
+      "out",
+      "build",
+      "path/to/large-folder"
+   ]
+}
+```
+
   <h3 align="center"> Node.js</h3>
   
   _redirects
