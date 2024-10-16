@@ -7,6 +7,159 @@ kill now
 java -jar openapi-generator-cli-6.0.1.jar generate -i ./src/schema/schema.json -g typescript-axios --additional-properties=withSeparateModelsAndApi=true,modelPackage=models,apiPackage=api -o ./src/openapi --type-mappings=Date=Date,DateTime=Date --skip-validate-spec
 ```
 
+```
+@layer base {
+  html {
+    @apply bg-s1;
+  }
+
+  body {
+    @apply font-poppins text-[16px] tracking-[-0.03em] text-p5;
+  }
+
+  a {
+    @apply no-underline;
+  }
+
+  img {
+    @apply block max-w-full;
+  }
+
+  button {
+    @apply bg-none tracking-[-0.03em];
+  }
+
+  input {
+    @apply tracking-[-0.03em];
+  }
+}
+
+@layer utilities {
+  /* START of Typography */
+  .h-num {
+    @apply font-inter text-[72px] font-bold leading-[84px];
+  }
+
+  .h1 {
+    @apply text-[84px] font-black leading-[84px] tracking-[-0.03em];
+  }
+
+  .h2 {
+    @apply text-[64px] font-black leading-[64px];
+  }
+
+  .h3 {
+    @apply text-[48px] font-semibold leading-[56px] tracking-[-0.02em];
+  }
+
+  .h4 {
+    @apply text-[40px] font-semibold leading-[52px];
+  }
+
+  .h5 {
+    @apply text-[32px] font-semibold leading-[40px];
+  }
+
+  .h6 {
+    @apply text-[24px] font-medium leading-[36px];
+  }
+
+  .body-1 {
+    @apply text-[22px] leading-[36px];
+  }
+
+  .body-2 {
+    @apply text-[18px] font-semibold leading-[32px];
+  }
+
+  .body-3 {
+    @apply text-[16px] leading-[28px] tracking-[0.02em];
+  }
+
+  .base {
+    @apply text-[16px] font-medium leading-[24px] tracking-[0.03em];
+  }
+
+  .base-bold {
+    @apply text-[16px] font-bold leading-[24px];
+  }
+
+  .base-small {
+    @apply text-[14px] font-semibold leading-[18px] tracking-[0.03em];
+  }
+
+  .small-1 {
+    @apply text-[14px] font-semibold leading-[18px] tracking-[0.03em];
+  }
+
+  .small-2 {
+    @apply text-[12px] font-bold leading-[16px] tracking-[0.3em];
+  }
+
+  .small-compact {
+    @apply text-[12px] font-semibold leading-[18px] tracking-[0.03em];
+  }
+
+  /* END of Typography */
+  /* START of Gradients */
+  .g1 {
+    background: linear-gradient(rgba(196, 203, 245, 0.5), transparent);
+  }
+
+  .g2 {
+    background: linear-gradient(#3062a3, #19549f);
+  }
+
+  .g3 {
+    background: linear-gradient(#3c52d9, #0c1838);
+  }
+
+  .g4 {
+    background: linear-gradient(#253575, #162561);
+  }
+
+  .g5 {
+    background: linear-gradient(#334679, #162561);
+  }
+
+  .g6 {
+    background: linear-gradient(#334679, #0c1838);
+  }
+
+  .g7 {
+    background: linear-gradient(#1b275a, #0e1434);
+  }
+
+  .g8 {
+    background: linear-gradient(to right, transparent, #2ef2ff, transparent);
+  }
+
+  .g9 {
+    background: linear-gradient(#080d27, transparent);
+  }
+
+  /* END of Gradients */
+  /* START of Common */
+  .container {
+    @apply mx-auto max-w-[1252px] px-16 max-xl:px-10 max-lg:px-6 max-sm:px-4;
+  }
+
+  .caption {
+    @apply small-2 mb-5 uppercase text-p3;
+  }
+
+  .scroll-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scroll-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  /* END of Common */
+```
+
 ### auto complete error solve
 ```
 {
